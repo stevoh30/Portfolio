@@ -92,7 +92,7 @@
 /* Type */
 
 	body {
-		background-color: #f4f4f4;
+		background-color: #f3e5e5;
 		color: #666666;
 	}
 
@@ -1585,5 +1585,11 @@
 			  align-items: center;
 			  overflow-y: visible;
 			  
+		  }
+		  .center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
 		  }
 		  
