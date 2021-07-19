@@ -462,8 +462,9 @@
 	transform: translate(-50%, -50%);
   }
 .modal-lg{
-	width: 90%; 
-	height: 100%;
+	width: 70%; 
+	height: auto;
+	min-width: 700px;
 }
 
 /* Form */

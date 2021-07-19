@@ -63,6 +63,7 @@
 					</p>
 				</div>
 				<div class="modal-footer">
+					<button type="button" class="btn btn-default" onclick="window.location.href='https://github.com/stevoh30/MVC-Stock-Market-Capstone';">GitHub</button>
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
 				</div>
@@ -84,14 +85,22 @@
 								<ol class="carousel-indicators">
 								  <li data-target="#myCarouse2" data-slide-to="0" class="active"></li>
 								  <li data-target="#myCarouse2" data-slide-to="1"></li>
+								  <li data-target="#myCarouse2" data-slide-to="2"></li>
+								  <li data-target="#myCarouse2" data-slide-to="3"></li>
 								</ol>
 							  
 								<!-- Wrapper for slides -->
 								<div class="carousel-inner">
 								  <div class="item active">
-									<img class="img-responsive " src="images/game_image1.png" alt="First slide">
+									<img class="img-responsive " src="images/game_image3.png" alt="First slide">
 								  </div>
 							  
+								  <div class="item">
+									<img src="images/game_image1.png">
+								  </div>
+								  <div class="item">
+									<img src="images/game_image4.png">
+								  </div>
 								  <div class="item">
 									<img src="images/game_image2.png">
 								  </div>
@@ -114,6 +123,7 @@
 						</p>
 					</div>
 					<div class="modal-footer">
+						<button type="button" class="btn btn-default" onclick="window.location.href='https://github.com/stevoh30/Pokemon_API-Project';">GitHub</button>
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 					</div>
@@ -136,6 +146,7 @@
 								  <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
 								  <li data-target="#myCarousel3" data-slide-to="1"></li>
 								  <li data-target="#myCarousel3" data-slide-to="2"></li>
+								  <li data-target="#myCarousel3" data-slide-to="3"></li>
 								</ol>
 							  
 								<!-- Wrapper for slides -->
@@ -150,6 +161,9 @@
 
 								  <div class="item">
 									<img src="images/android_image3.png">
+								  </div>
+								  <div class="item">
+									<img src="images/android_image4.png">
 								  </div>
 						
 								</div>
@@ -170,11 +184,27 @@
 							</p>
 					</div>
 					<div class="modal-footer">
+						<button type="button" class="btn btn-default" onclick="window.location.href='https://github.com/stevoh30/ComicStrip_Application';">GitHub</button>
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 					</div>
 				</div>
 				</div>
+				<div id="myModal4" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg">
+						<!-- Modal content-->
+						<div class="modal-content">
+						<div class="modal-body">
+							<p>
+								Not available at this time.
+							</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+					</div>
 			<!-- end of working modal -->
 
 
@@ -192,7 +222,7 @@
 				
 				<!-- Banner -->
 					<section id="intro" class="main">
-						<img src="images/profile_image2.png" class="center">
+						<img src="images/profile_image3.png" class="center">
 						<h2>A little about myself...</h2>
 						<p class="intro">I am currently a computer science student, finishing up my 
 							bachelor’s degree for the Application Development program at Renton Technical College. 
@@ -222,7 +252,7 @@
 							<!-- <ul class="actions">
 								<button type="button" class="button" data-toggle="modal" data-target="#myModal">More</button> -->
 
-							</ul>
+							<!-- </ul> -->
 						</article>
 						<!-- Item2 -->
 						<article class="item">
@@ -249,12 +279,12 @@
 						<!-- Item4 -->
 						<article class="item">
 							<header>
-								<a href="#"><img src="images/under_construction.png" alt="" /></a>
+								<a href="#" data-toggle="modal" data-target="#myModal4"></a><img src="images/under_construction.png" alt="" /></a>
 								<h3>Website Collaboration</h3>
 							</header>
 							<p> Project currently under development.  </p>
 							<ul class="actions">
-								<li><a href="#" class="button">More</a></li>
+								<button type="button" class="button" data-toggle="modal" data-target="#myModal4">More</button>
 							</ul>
 						</article>
 				
