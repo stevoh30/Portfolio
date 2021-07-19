@@ -462,7 +462,7 @@
 	transform: translate(-50%, -50%);
   }
 .modal-lg{
-	max-width: 100%;
+	max-width: 100%; 
 	max-height: 100%;
 }
 
@@ -1595,4 +1595,5 @@
 			margin-right: auto;
 			width: 50%;
 		  }
+
 		  
